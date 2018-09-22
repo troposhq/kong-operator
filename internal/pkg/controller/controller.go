@@ -1,10 +1,18 @@
 package controller
 
+import (
+	"k8s.io/client-go/kubernetes"
+)
+
 type Controller struct {
+	// kubeclientset is a standard kubernetes clientset
+	kubeclientset kubernetes.Interface
 }
 
-func NewController() *Controller {
-	controller := &Controller{}
+func New(kubeclientset kubernetes.Interface) *Controller {
+	controller := &Controller{
+		kubeclientset: kubeclientset,
+	}
 	return controller
 }
 
