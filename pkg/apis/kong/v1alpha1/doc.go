@@ -1,3 +1,3 @@
 // +k8s:deepcopy-gen=package
-// +groupName=TODO.com
+// +groupName=kong.troposhq.com
 package v1alpha1

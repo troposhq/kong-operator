@@ -1,4 +1,4 @@
-module github.com/troposhq/kong-operator
+module kong-operator
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -23,10 +23,13 @@ require (
 	golang.org/x/net v0.0.0-20180921000356-2f5d2388922f // indirect
 	golang.org/x/sys v0.0.0-20180921163948-d47a0f339242 // indirect
 	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2 // indirect
+	golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e // indirect
 	gopkg.in/airbrake/gobrake.v2 v2.0.9 // indirect
 	gopkg.in/gemnasium/logrus-airbrake-hook.v2 v2.1.2 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	k8s.io/api v0.0.0-20180913155108-f456898a08e4 // indirect
 	k8s.io/apimachinery v0.0.0-20180619225948-e386b2658ed2
 	k8s.io/client-go v8.0.0+incompatible
+	k8s.io/code-generator v0.0.0-20180822150921-aae79feb89bd
+	k8s.io/gengo v0.0.0-20180813235010-4242d8e6c5db // indirect
 )

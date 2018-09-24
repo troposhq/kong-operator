@@ -1,9 +1,11 @@
 package main
 
 import (
+	"kong-operator/internal/pkg/controller"
+
+	"kong-operator/pkg/signals"
+
 	log "github.com/sirupsen/logrus"
-	"github.com/troposhq/kong-operator/internal/pkg/controller"
-	"github.com/troposhq/kong-operator/pkg/signals"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 )
